@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حسابات البان الملكه</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="info.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"  href="#cv">
+        <a class="navbar-brand" href="#b">اضافه منتج جديد</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#v">عرض المنجات <span class="sr-only">(current)</span></a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#e">ما تم بيعه</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#ch"> معلومات المنتج </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#x">اليوميه</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#z">المصاريف</a>
+              </li>
+          </ul>
+        </div>
+    </nav>
+    <h1 class="p-2 mb-0 d-flex align-items-center justify-content-center"> حسابات  ألبان الملكه</h1>
+    <h4 class="mb-0 d-flex align-items-center "><span>"بنى سويف "الاباصيرى</span>إداره/ الشيخ طه محفوظ   </h4><br>
+    <h2 class="text-center m-auto pt-3" id="b"> تسجيل منتج</h2><br>
+    <table class="table m-auto table-striped l s" >
+        <thead>
+           
+            <th> السعر </th>
+            <th>  اخر اليوميه </th>
+            <th>  اول اليوميه </th>
+            <th> المنتج  </th>
+            <hr>
+        </thead>
+        <tbody id="tableBody" >
+            <td><input  class="yuo" id="1"> </td>
+            <td><input  class="yuo" id="2" type="number"></td>
+            <td><input  class="yuo" id="3" type="number"></td>
+            <td><input  class="yuo" id="4" ></td>
+        </tbody>
+        <!-- <tbody id="tableBody">
+            <td><input type="number"></td>
+            <td> <input></td>
+            <td><input></td>
+            <td><input type="number"></td>   
+            <td><input type="number"></td>
+        </tbody>
+        <tbody id="tableBody">
+            <td><input type="number"></td>
+            <td><input></td>
+            <td><input></td>
+            <td><input type="number"></td>   
+            <td><input type="number"></td>
+        </tbody>
+        <tbody id="tableBody">
+            <td><input type="number"></td>
+            <td><input> </td>
+            <td><input></td>
+            <td><input  type="number"></td>
+            <td><input  type="number"></td>
+        </tbody>
+        <tbody id="tableBody">
+            <td><input type="number"></td>
+            <td> <input></td>
+            <td><input></td>
+            <td><input type="number"></td>   
+            <td><input type="number"></td>
+        </tbody>
+        <tbody id="tableBody">
+            <td><input type="number"></td>
+            <td><input></td>
+            <td><input></td>
+            <td><input type="number"></td>   
+            <td><input type="number"></td>
+        </tbody> -->
+    </table>
+    <button  onclick="tsgel()" class="btn-outline-info  my-4" id="h">تسجيل</button>
+    <h2 class="text-center m-auto pt-3" id="v">عرض المنتجات</h2><br>
+    <!-- <input onkeyup="searchProduct(this.value)" class="form-control w-50 m-auto" placeholder="ابحث هنا"><br>   -->
+    <table class="table m-auto table-striped l" >
+        <thead>
+            <!-- <th> التعديلات  </th> -->
+           
+            <th> السعر  </th>
+            <th>  اخر اليوميه </th>
+            <th>   اول اليوميه </th>
+            <th> المنتج  </th>
+            <hr>
+        </thead>
+        <tbody id="table">
+        </tbody>
+    </table>
+    <h2 class="q" id="ch">معلومات المنتج </h2>
+    <table class="table m-auto table-striped l " >
+        <thead>
+            <th> مبلغ بيع المنتج خلال اليوم  </th>
+            <th> ما تم بيعه خلال اليوم </th>
+            <th> المنتج  </th>
+            <hr>
+        </thead>
+        <tbody id="tablebe">
+          
+        </tbody>
+    </table><br>
+    <h2 class="q" id="t">تسجيلات اخر اليوم</h2><br>
+    <div class="container py-3 k" id="q">
+        <div class="form-group w-50 tst">
+            <label>اليوم </label>
+            <input type="number" id="productidInp" class="form-control">
+        </div><br>
+        <div class="form-group w-50 tst">
+            <label>اليوميه </label>
+            <input id="productyoInp" class="form-control">
+        </div><br><br>
+        <h2 class="iu">المصاريف</h2><br>
+        <div class="form-group w-50 tst">
+            <label>مصاريف اليوميه  </label>
+            <input id="productthyInp" class="form-control">
+        </div><br>
+        <div class="form-group w-50 tst">
+            <label>مصاريف من الخزنه </label>
+            <input id="productthkInp" class="form-control">
+        </div><br>
+        <h2 class="iu">مبالغ اخرى</h2><br>
+        <div class="form-group w-50 tst">
+            <label> مبالغ اضافيه  </label>
+            <input id="productzdInp" class="form-control">
+        </div><br>
+        <div class="form-group w-50 tst">
+            <label> عجز وتالف   </label>
+            <input id="productnkInp" class="form-control">
+        </div><br>
+        <div class="form-group w-50 tst">
+            <label>اسم الكاشير </label>
+            <input id="productcaInp" class="form-control">
+        </div>
+        <button  onclick="addProduct()" class="btn-outline-info  my-4" id="hh">تحديث</button>
+    </div>
+    <h2 class="q" id="z"> المصاريف</h2><br>
+    <table class="table m-auto table-striped l">
+        <thead>
+            <th> اليوم </th>
+            <th>  مصاريف اليوميه </th>
+            <th> مصاريف الخزنه </th>
+            <hr>
+        </thead>
+        <tbody id="tabletah">
+          
+        </tbody>
+    </table><br>
+    <!-- <table class="table m-auto table-striped l">
+        <thead>
+            <th> اليوم </th>
+            <th>  جميع مصاريف اليوميه خلال الشهر </th>
+            <th>جميع مصاريف الخزنه خلال الشهر </th>
+            <hr>
+        </thead>
+        <tbody id="tablems">
+          
+        </tbody>
+    </table><br> -->
+   <div class="tg"> 
+       <button id = ms class="btn bg-info pp"></button>
+       <label class="fg">جميع مصاريف اليوميه خلال الشهر</label>
+   </div><br>
+    <div>
+        <button id = mss class="btn bg-info pp"></button>
+        <label class="fg">جميع مصاريف الخزنه خلال الشهر</label>
+    </div>
+    <h2 class="q" id="x">اليوميه</h2><br>
+    <table class="table m-auto table-striped l">
+        <thead>
+            <th> اليوم </th>
+            <th>اجمالى اليوميه   </th>
+            <th> المبلغ بعد التحصيل </th>
+            <hr>
+        </thead>
+        <tbody id="tableyo">
+          
+        </tbody>
+    </table><br>
+    <h2 class="q" id="t">المبالغ الاخرى</h2><br>
+    <table class="table m-auto table-striped l">
+        <thead>
+            <th> اليوم </th>
+            <th> الزيادات </th>
+            <th>   النواقص والتالف </th>
+            <hr>
+        </thead>
+        <tbody id="tablefl">
+          
+        </tbody>
+    </table><br>
+    <div class="tg"> 
+        <button id = "gzd" class="btn bg-info pp"></button>
+        <label class="fg">جميع  الزيادات خلال الشهر</label>
+    </div><br>
+     <div>
+         <button id = "gnk" class="btn bg-info pp"></button>
+         <label class="fg">جميع  العجز خلال الشهر</label>
+     </div>
+    <h2 class="q" id="y"> الكاشير</h2><br>
+    <table class="table m-auto table-striped l">
+        <thead>
+            <th> اليوم </th>
+            <th> الكاشير </th>
+            <hr>
+        </thead>
+        <tbody id="tableca">
+          
+        </tbody>
+    </table><br>
+    <h2 class="q"> المبلغ العام</h2><br>
+    <button click class="p-2 mb-3 btn-outline-info t">   الخزنه</button><br><br>
+    <div  class="rt" id="c"></div>
+    <!-- <button onclick=" href= 'cv'"class="cv" id="cv">TOP</button> -->
+    <footer class=" ff text-center text-white">
+        <div class="container p-4 pb-0">
+          <section class="mb-2">
+            اتصل بالرقم التالى
+        </div>
+        <!-- Grid container -->
+      01227147029
+        <!-- Copyright -->
+        <div class="text-center p-2 ah">
+          © 2020 Copyright:
+          <a class="text-white ah" >a7md oraby</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <script src="about.js"></script>
+</body>
+</html>

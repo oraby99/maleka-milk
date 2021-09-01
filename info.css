@@ -1,0 +1,165 @@
+body
+{
+     background-color: black;
+    
+    background-size: cover;
+    color: black;
+    text-align: center;
+}
+.k
+{
+    background-color: #131722;
+    color: wheat;
+}
+.kl
+{
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 20px;
+    position: relative;
+    left: -29%;
+    top: -47px;
+}
+.lm
+{
+    background-color: black;
+    color: yellow;
+    border-radius: 20px;
+}
+.lm:hover,.kl:hover
+{
+    background-color: brown;
+}
+.l
+{
+    background-color: #a8a8a83d;
+    width: 84%;
+}
+label
+{
+    font-size: 30px;
+}
+.tst
+{
+    margin: auto;
+}
+.s
+{
+background-color: teal;
+}
+.ff
+{
+background-color: teal;
+}
+.ah
+{
+    background-color: black;
+}
+h1
+{
+     font-family: 'Zen Tokyo Zoo', cursive;
+     color: whitesmoke;
+     font-size: 60px;
+     font-weight: bold;
+     background-color: black;
+}
+h4
+{
+text-align: center;
+background-color: #343a40;
+color: whitesmoke;
+height: 55px;
+position: relative;
+}
+span
+{
+    position: absolute;
+    left: 82%;
+}
+h2
+{
+     font-family: 'Courier New', Courier, monospace;
+     color: whitesmoke;
+}
+button
+{
+    background-color: black;
+    color: brown;
+    padding: 5px;
+    
+}
+thead
+{
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+}
+tbody
+{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+  
+}
+.q
+{
+    margin-top: 30px;
+    text-align: center;
+    color: #24baef;
+    font-size: 30px;
+    font-weight: bold;
+}
+.haa
+{
+   position: relative;
+   left: 120%;
+   top:-50px;
+   width: 80px;
+}
+.di
+{
+    background-color: darkblue;
+    width: 80px;
+    position: relative;
+    left: 190%;
+    top:-99px;
+}
+/* .o
+{
+    position: relative;
+    left: 1%;  
+} */
+.po
+{
+   width: 90px;
+}
+.rt
+{
+    color: whitesmoke;
+    font-size: 30px;
+   
+}
+.cv
+{
+    float: left;
+}
+.ql
+{
+    color: whitesmoke;
+}
+.iu
+{
+    color: red;
+    font-size: 60px;
+    font-weight: bold;
+}
+.pp
+{
+    width: 70px;
+    height: 35px;
+}
+.fg
+{
+    color: silver;
+    font-size: 20px;
+}
